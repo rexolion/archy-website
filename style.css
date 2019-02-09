@@ -1,0 +1,85 @@
+.Header {
+    width: 100%;
+    height: 90px;
+    position: relative;
+}
+.Header-container {
+    padding: 0 50px 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.Logo {
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    font-weight: 400;
+
+
+}
+.Header-bullet {
+    height: 90px;
+    line-height: 90px;
+
+
+
+}
+.Header-bullet-item:hover {
+    color: #000000;
+    font-weight: 400;
+
+}
+.Header-bullet-item {
+    color: #424242;
+    font-weight: 300;
+    padding: 0 30px 0 0 ;
+}
+.Heading_mdBord {
+    border-left: solid 5px;
+    padding-left: 20px;
+    font-size: 60px;
+    font-weight: 400;
+    margin: 30px 0 15px 0;
+}
+
+.Heading_md {
+    font-size: 60px;
+    font-weight: 400;
+    margin: 30px 0 15px 0;
+}
+.Hero-container {
+    display: flex;
+}
+.Hero-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    justify-content: space-between;
+}
+.Hero-name {
+    width: 100%;
+    height: 30%;
+    background-color: #222222;
+}
+.Hero-image {
+    width: 90%;
+    height: 100%;
+    background-color: #ee0;
+}
+.Hero-right {
+    width: 50%;
+    height: 100vh;
+
+}
+.Hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+.Heading_lg {
+    width: 80%;
+    font-weight: 500;
+    font-size: 80px;
+}
